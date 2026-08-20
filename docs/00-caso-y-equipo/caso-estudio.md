@@ -22,9 +22,7 @@
 
 | Campo | Detalle |
 |-------|---------|
-| Nombre de la organización | [COMPLETAR] |
 | Sector / Industria | Salud / Servicios de salud |
-| Tamaño aproximado | Pequeña |
 | Área solicitante | Servicio de Ingeniería Clínica |
 
 ## Problema u oportunidad
@@ -41,16 +39,13 @@
 
 | Tipo | Descripción |
 |------|-------------|
-| Tiempo | [COMPLETAR] |
-| Presupuesto | [COMPLETAR] |
-| Alcance | [COMPLETAR] |
-| Recursos | [COMPLETAR] |
+| Tiempo | 1 año |
+| Presupuesto | Indefinido |
+| Recursos | Indefinidos |
 
 ## Supuestos
 
-- [COMPLETAR: supuesto 1]
-- [COMPLETAR: supuesto 2]
-- [COMPLETAR: supuesto 3]
+- El software de gestión sobre el que trabajará el dispositivo es compatible con su integración mediante el protocolo MCP (Model Context Protocol).
 
 ---
 
