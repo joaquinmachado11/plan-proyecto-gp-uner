@@ -8,7 +8,7 @@
 
 - [ ] Caso provisto por la cátedra
 - [x] Caso propio basado en experiencia laboral/profesional
-- [ ] Proyecto ya realizado, utilizado como contexto
+- [ ] Proyecto ya realizado, utilizado como contexto.
 
 ## Descripción general
 
@@ -41,7 +41,7 @@
 
 | Tipo | Descripción |
 |------|-------------|
-| Tiempo | [COMPLETAR] |
+| Tiempo | [] |
 | Presupuesto | [COMPLETAR] |
 | Alcance | [COMPLETAR] |
 | Recursos | [COMPLETAR] |
