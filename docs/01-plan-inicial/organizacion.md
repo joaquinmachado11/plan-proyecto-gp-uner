@@ -29,19 +29,10 @@
 | **Product Owner**                      | Manuela Calvo | Maximizar el valor del producto, definir y priorizar las funcionalidades y representar las necesidades de los stakeholders y usuarios. |
 | **Scrum Master**                       | Manuela Calvo                                                                | Facilitar Scrum, acompañar al equipo, eliminar impedimentos y asegurar que el marco de trabajo sea comprendido y aplicado.             |
 | **Development Team**                   | Josefina Giorgi + Joaquín Machado                                            | Diseñar, desarrollar, integrar y verificar los incrementos funcionales de JARVIS.                                                      |
-| **Process Owner / Process Specialist** | Responsable del Servicio de Ingeniería Clínica                               | Aportar conocimiento del proceso de mantenimiento y validar que la solución responda a las necesidades reales del servicio.            |
 | **End Users**                          | Ingenieros clínicos / técnicos de mantenimiento                              | Participar en la definición y validación de funcionalidades, pruebas de usabilidad y evaluación del funcionamiento de la solución.     |
 
 ## Estructura del equipo
-
-
-## Organización del ciclo híbrido
-
-El proyecto utilizará un **enfoque híbrido**. Los aspectos generales del proyecto, como los objetivos, restricciones, alcance general y entregables, se establecerán mediante una planificación inicial de carácter predictivo.
-
-La etapa de desarrollo se organizará mediante un enfoque **adaptativo basado en Scrum**, permitiendo desarrollar y validar progresivamente las funcionalidades de JARVIS mediante iteraciones. La participación del Product Owner, del Scrum Master y del Development Team permitirá priorizar las funcionalidades y adaptar el producto a partir de los resultados obtenidos durante las pruebas y de la retroalimentación de los usuarios.
-
-El Development Team estará conformado por los responsables de hardware y firmware/software, quienes trabajarán de manera colaborativa para construir los incrementos funcionales del producto. El responsable del Servicio de Ingeniería Clínica y los usuarios finales participarán como referentes del proceso y fuentes de retroalimentación para la validación de las funcionalidades.
+![alt text](image.png)
 
 ---
 
