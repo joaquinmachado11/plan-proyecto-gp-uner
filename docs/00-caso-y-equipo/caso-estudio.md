@@ -22,18 +22,39 @@
 
 | Campo | Detalle |
 |-------|---------|
-| Sector / Industria | Salud / Servicios de salud |
+|Nombre | KIBBO   |
+| Sector / Industria | Servicios de salud/Software |
 | Área solicitante | Servicio de Ingeniería Clínica |
 
 ## Problema u oportunidad
+ La escasez de personal y la alta demanda asistencial generan un cuello de botella. La carga administrativa manual para documentar mantenimientos, consultar agendas y gestionar comunicaciones interrumpe el trabajo técnico, relegando el registro de datos o restando tiempo a intervenciones prioritarias. El sistema actúa como un acelerador de adopción: elimina las barreras de entrada de datos manos libres, garantiza el uso integral de la plataforma, optimiza la productividad del SIC y dota al software de un elemento de diferenciación comercial clave.
 
- El problema central es la elevada carga administrativa que enfrenta el personal de los Servicios de Ingeniería Clínica debido a la documentación de mantenimientos, la actualización del software de gestión y la gestión de comunicaciones, llamadas, correos y agendas. Estas actividades interrumpen el flujo de trabajo técnico y pueden provocar que la documentación se postergue o que se reduzca el tiempo disponible para intervenciones prioritarias.
-
-  El proyecto representa una oportunidad para incorporar una interfaz de interacción por voz que permita registrar y actualizar información en tiempo real, reducir la escritura manual y reasignar tiempo operativo hacia intervenciones técnicas complejas y preventivas. También busca mejorar la trazabilidad y agilizar la comunicación con proveedores externos, contribuyendo a reducir los tiempos de inactividad de los equipos médicos.
 
 ## Objetivo del proyecto
+ Desarrollar un asistente virtual de gestión de mantenimiento controlado por voz integrado de manera nativa al software de gestión centralizado. El sistema opera a través de la aplicación móvil corporativa de la plataforma o mediante dispositivos físicos compactos homologados de bajo costo, equipados con arreglos de micrófonos y altavoces adaptados a entornos de taller. Su arquitectura deberá permitir la captura y estructuración de la información, que posteriormente será transferida a la base de datos bajo el estado de "borrador pendiente de validación", requiriendo la revisión y aprobación explícita del técnico responsable en el panel de control antes de su asentamiento definitivo. 
 
- Desarrollar un asistente virtual de gestión de mantenimiento controlado por voz que permita al personal del Servicio de Ingeniería Clínica documentar y consultar información técnica, gestionar comunicaciones y acceder a eventos y mantenimientos programados de manera manos libres, reduciendo la carga administrativa y mejorando la trazabilidad y disponibilidad de los equipos médicos.
+
+## Casos de uso iniciales
+- Gestión y documentación técnica (vía comandos de voz):
+  - Registro de fallas e incidentes.
+  - Alta y baja de equipamiento médico.
+  - Reporte de fallas solucionadas.
+  - Registro de traslados de equipos.
+  - Documentación de mantenimientos preventivos (actualización de ficha técnica y agenda).
+  - Documentación de mantenimientos correctivos.
+  - Registro de cambios de partes o repuestos.
+  - Actualización del estado operativo del equipo (fuera de servicio, disponible, en revisión, etc.).
+  - Documentación de procesos de instalación y preinstalación.
+- Asistencia operativa y gestión del flujo de trabajo:
+  - Asistente en procedimientos: Guía paso a paso por voz durante las tareas de mantenimiento o calibración.
+  Consulta de agenda y eventos: Lectura y recordatorio de próximas fechas de mantenimientos preventivos, inspecciones y auditorías.
+  - Gestión de comunicaciones: Enlace con proveedores y servicios externos mediante sistema de llamadas o mensajería.
+  - Centro de notificaciones: Recepción, lectura y resumen de alertas, correos electrónicos y mensajes dirigidos al SIC.
+
+## Beneficio esperado
+La Empresa de Software interesada dispone de una ventaja competitiva que incrementa el valor percibido del sistema, acelera el proceso de venta a nuevos hospitales, reduce la tasa de abandono de clientes actuales y abre una nueva línea de ingresos.
+
+Para los Clientes de la Empresa de Software se espera que experimenten una reducción directa del esfuerzo manual rutinario, menor fatiga operativa y mayor fluidez en sus dinámicas de trabajo diarias.
 
 ## Restricciones conocidas
 
