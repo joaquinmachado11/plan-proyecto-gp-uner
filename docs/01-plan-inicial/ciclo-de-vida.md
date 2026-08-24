@@ -2,11 +2,11 @@
 
 ## Enfoque seleccionado
 
-> **[COMPLETAR: Predictivo / Adaptativo / Híbrido]**
+**Híbrido**
 
 ## Justificación de la elección
 
-> [COMPLETAR: explicar por qué este enfoque es el más adecuado para el proyecto, considerando características como: complejidad, claridad de requisitos, tamaño del equipo, tolerancia al cambio, experiencia del equipo, etc.]
+Se selecciona un ciclo de vida híbrido debido a que el proyecto presenta componentes con requisitos relativamente estables y planificables, como la arquitectura general y el desarrollo del hardware, combinados con aspectos que presentan mayor incertidumbre, principalmente la interacción mediante voz, la experiencia de usuario y la integración con el sistema de gestión existente. Por este motivo, se propone una planificación de carácter predictivo, complementada con un enfoque adaptativo e iterativo durante el desarrollo, integración y validación del prototipo. Esto permitirá incorporar los resultados de las pruebas y la retroalimentación de los usuarios sin perder el control sobre el alcance, los tiempos y los recursos del proyecto.
 
 ## Árbol de decisión
 
@@ -28,26 +28,32 @@ flowchart TD
     style H fill:#FFF9C4,stroke:#F9A825
 ```
 
-> **Decisión del grupo:** [COMPLETAR: indicar cuál rama del árbol aplica a su caso y por qué]
+**Decisión del grupo:** Siguiendo el árbol de decisión, se parte del análisis de la estabilidad de los requisitos. En nuestro caso, se identifican tanto requisitos estables como aspectos sujetos a cambios y validación durante el desarrollo. Por este motivo, el camino seleccionado conduce a un ciclo de vida híbrido.
+
+Esta decisión permite separar las actividades de enfoque predictivo de aquellas que exigen un enfoque adaptativo. Para estas últimas, debido a la necesidad de entregas incrementales y al desarrollo de funcionalidades de voz y experiencia de usuario, se seleccionó Scrum como marco de trabajo. Esto facilitará un proceso iterativo de ajuste continuo basado en pruebas y realimentación.
+
+Scrum permite organizar el trabajo en sprints, obteniendo al final de cada uno un incremento funcional que puede ser probado y evaluado. Esto resulta adecuado para JARVIS, ya que permite validar progresivamente y de manera constante las funcionalidades y utilizar los resultados obtenidos para ajustar el trabajo de los siguientes sprints.
+
+Además, la posibilidad de mantener una lista de tareas priorizada permite abordar primero las funcionalidades de mayor valor y adaptar el desarrollo a medida que aparecen nuevos requerimientos o se obtiene retroalimentación de los usuarios. De esta forma, Scrum brinda la flexibilidad necesaria para gestionar la incertidumbre de esta parte del proyecto, manteniendo al mismo tiempo una estructura y un seguimiento periódico del avance.
 
 ## Fases del proyecto
 
 ```mermaid
 flowchart LR
-    F1["📌 Fase 1\n[COMPLETAR]"]
-    F2["📌 Fase 2\n[COMPLETAR]"]
-    F3["📌 Fase 3\n[COMPLETAR]"]
-    F4["📌 Fase 4\n[COMPLETAR]"]
+    F1["📌 Fase 1\nIniciación y arquitectura"]
+    F2["📌 Fase 2\nDesarrollo del prototipo"]
+    F3["📌 Fase 3\nIntegración y pruebas iterativas"]
+    F4["📌 Fase 4\nValidación en cliente y cierre"]
 
     F1 --> F2 --> F3 --> F4
 ```
 
 | Fase | Nombre | Objetivo | Criterio de salida |
-|------|--------|----------|-------------------|
-| 1 | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
-| 2 | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
-| 3 | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
-| 4 | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
+| ---- | ----------- | ----------- | ------------------ |
+| 1    | Iniciación y arquitectura | Definir requisitos, casos de uso y arquitectura del hardware y software del asistente. | Requisitos y arquitectura aprobados. |
+| 2    | Desarrollo del prototipo | Diseñar y desarrollar el dispositivo y sus componentes principales, con los requisitos definidos anteriormente. | Obtención del prototipo. |
+| 3    | Integración y pruebas iterativas | Integrar el asistente con el sistema de gestión y verificar los casos de uso. | Integración funcional y pruebas satisfactorias. |
+| 4    | Validación en cliente y cierre | Validar el sistema con los usuarios y documentar el producto final. | Sistema validado y documentación del producto finalizada. |
 
 ---
 
