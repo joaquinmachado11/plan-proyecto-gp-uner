@@ -2,11 +2,11 @@
 
 ## Integrantes
 
-| Nombre y Apellido | Legajo | Carrera | Rol en el proyecto |
-|-------------------|--------|---------|-------------------|
-| Manuela Calvo | [COMPLETAR] | Bioingeniería | [COMPLETAR] |
-| Josefina Giorgi | [COMPLETAR] | Bioingeniería | [COMPLETAR] |
-| Joaquín Machado | [COMPLETAR] | Bioingeniería | [COMPLETAR] |
+| Nombre y Apellido |    Carrera    |
+|-------------------|---------------|
+|  Manuela Calvo    | Bioingeniería | 
+| Josefina Giorgi   | Bioingeniería | 
+| Joaquín Machado   | Bioingeniería | 
 
 ## Número de grupo
 
