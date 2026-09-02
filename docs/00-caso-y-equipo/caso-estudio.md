@@ -33,6 +33,15 @@
 ## Objetivo del proyecto
  Desarrollar un asistente virtual de gestión de mantenimiento controlado por voz integrado de manera nativa al software de gestión centralizado. El sistema opera a través de la aplicación móvil corporativa de la plataforma o mediante dispositivos físicos compactos homologados de bajo costo, equipados con arreglos de micrófonos y altavoces adaptados a entornos de taller. Su arquitectura deberá permitir la captura y estructuración de la información, que posteriormente será transferida a la base de datos bajo el estado de "borrador pendiente de validación", requiriendo la revisión y aprobación explícita del técnico responsable en el panel de control antes de su asentamiento definitivo. 
 
+## Alcance
+ El proyecto abarca el diseño, integración y validación de un altavoz inteligente de uso exclusivo, creado como una extensión física y manos libres del software de gestión de activos y mantenimiento hospitalario.
+
+ El dispositivo actúa como un terminal de voz que interactúa bidireccionalmente con el sistema de gestión, permitiendo la carga de datos operativos y la asistencia técnica en el taller, estando restringido operativamente a los flujos del software para garantizar la seguridad de la información y la productividad laboral.
+
+
+## Fuera de alcance
+ Se excluye expresamente cualquier funcionalidad de entretenimiento o uso personal, por lo que el altavoz no permitirá la reproducción de música, sintonización de radio ni reproducción de contenidos multimedia ajenos al entorno del software. Además, el proyecto no abarca el desarrollo de un nuevo sistema de gestión ni la capacidad de operación sin conectividad a red, requiriendo el módulo una conexión activa para el procesamiento de comandos en la nube. 
+
 
 ## Casos de uso iniciales
 - Gestión y documentación técnica (vía comandos de voz):
@@ -51,7 +60,7 @@
   - Gestión de comunicaciones: Enlace con proveedores y servicios externos mediante sistema de llamadas o mensajería.
   - Centro de notificaciones: Recepción, lectura y resumen de alertas, correos electrónicos y mensajes dirigidos al SIC.
 
-## Beneficio esperado
+## Propuesta de valor
 La Empresa de Software interesada dispone de una ventaja competitiva que incrementa el valor percibido del sistema, acelera el proceso de venta a nuevos hospitales, reduce la tasa de abandono de clientes actuales y abre una nueva línea de ingresos.
 
 Para los Clientes de la Empresa de Software se espera que experimenten una reducción directa del esfuerzo manual rutinario, menor fatiga operativa y mayor fluidez en sus dinámicas de trabajo diarias.
