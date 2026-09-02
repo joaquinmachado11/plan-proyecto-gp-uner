@@ -41,19 +41,19 @@ Además, la posibilidad de mantener una lista de tareas priorizada permite abord
 ```mermaid
 flowchart LR
     F1["📌 Fase 1\nIniciación y arquitectura"]
-    F2["📌 Fase 2\nDesarrollo del prototipo"]
-    F3["📌 Fase 3\nIntegración y pruebas iterativas"]
-    F4["📌 Fase 4\nValidación en cliente y cierre"]
+    F2["📌 Fase 2\nDesarrollo del prototipo e integración"]
+    F3["📌 Fase 3\nValidación con pruebas iterativas"]
+    F4["📌 Fase 4\nEntrega del producto final"]
 
     F1 --> F2 --> F3 --> F4
 ```
 
 | Fase | Nombre | Objetivo | Criterio de salida |
-| ---- | ----------- | ----------- | ------------------ |
-| 1    | Iniciación y arquitectura | Definir requisitos, casos de uso y arquitectura del hardware y software del asistente. | Requisitos y arquitectura aprobados. |
-| 2    | Desarrollo del prototipo | Diseñar y desarrollar el dispositivo y sus componentes principales, con los requisitos definidos anteriormente. | Obtención del prototipo. |
-| 3    | Integración y pruebas iterativas | Integrar el asistente con el sistema de gestión y verificar los casos de uso. | Integración funcional y pruebas satisfactorias. |
-| 4    | Validación en cliente y cierre | Validar el sistema con los usuarios y documentar el producto final. | Sistema validado y documentación del producto finalizada. |
+| ---- | ----------- | ----------- | ----------------- |
+| 1    | Iniciación y arquitectura | Definir requisitos, casos de uso y arquitectura del hardware y software del asistente. | Requisitos y arquitectura documentados. |
+| 2    | Desarrollo del prototipo e integración | Diseñar y desarrollar el hardware y firmware del dispositivo y sus componentes principales, con los requisitos definidos anteriormente. Integrar el asistente con el sistema de gestión. | Obtención del prototipo integrado al software. |
+| 3    | Validación con pruebas iterativas | Validar/modificar los casos de uso. | Pruebas satisfactorias de validación. |
+| 4    | Entrega del producto final | Documentar y presentar al sponsor los resultados. | Entrega final del dispositivo validado e informe de cierre. |
 
 ---
 
