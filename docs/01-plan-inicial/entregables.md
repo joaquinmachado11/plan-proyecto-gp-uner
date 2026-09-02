@@ -27,12 +27,6 @@ mindmap
 | 3 | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
 | 4 | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
 
-## Exclusiones del alcance
-
-> [COMPLETAR: indicar explícitamente qué NO está incluido en el proyecto para evitar ambigüedades]
-
-- [COMPLETAR: exclusión 1]
-- [COMPLETAR: exclusión 2]
 
 ---
 
