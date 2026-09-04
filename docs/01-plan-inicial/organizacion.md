@@ -4,7 +4,7 @@
 
 | Nombre / Rol                                                                            | Área                           | Interés en el proyecto                                                                                                                      | Influencia |
 | --------------------------------------------------------------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| **KIBBO** | Dirección / Tecnología| Incorporar JARVIS a su plataforma, aumentar el valor percibido del software y generar una ventaja competitiva.                              | Alta       |
+| **KIBBO** | Dirección / Tecnología| Incorporar KIU a su plataforma, aumentar el valor percibido del software y generar una ventaja competitiva.                              | Alta       |
 | **Responsable del Servicio de Ingeniería Clínica** | Servicio de Ingeniería Clínica | Mejorar la productividad, reducir la carga administrativa y asegurar que la solución se adapte al flujo de trabajo del servicio.| Alta       |
 | **Ingeniero Clínico / Técnico** | Servicio de Ingeniería Clínica | Disponer de una herramienta que facilite el registro de información, la consulta de actividades y la asistencia durante las intervenciones. | Alta|
 | **Institución de Salud**  | Servicios de Salud| Mejorar la disponibilidad, trazabilidad y gestión de la tecnología médica.| Alta |
@@ -28,7 +28,7 @@
 | **Project Sponsor**| KIBBO| Impulsar el proyecto, proporcionar respaldo institucional y representar los intereses estratégicos de la organización.                 |
 | **Product Owner**                      | Manuela Calvo | Maximizar el valor del producto, definir y priorizar las funcionalidades y representar las necesidades de los stakeholders y usuarios. |
 | **Scrum Master**                       | Joaquin Machado                                                                | Facilitar Scrum, acompañar al equipo, eliminar impedimentos y asegurar que el marco de trabajo sea comprendido y aplicado.             |
-| **Development Team**                   | Josefina Giorgi + Joaquín Machado                                            | Diseñar, desarrollar, integrar y verificar los incrementos funcionales de JARVIS.                                                      |
+| **Development Team**                   | Josefina Giorgi + Joaquín Machado                                            | Diseñar, desarrollar, integrar y verificar los incrementos funcionales de KIU.                                                      |
 | **End Users**                          | Personal de KIBBO                              | Participar en la definición y validación de funcionalidades, pruebas de usabilidad y evaluación del funcionamiento de la solución.     |
 
 ## Estructura del equipo

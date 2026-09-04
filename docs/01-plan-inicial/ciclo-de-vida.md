@@ -32,7 +32,7 @@ flowchart TD
 
 Esta decisión permite separar las actividades de enfoque predictivo de aquellas que exigen un enfoque adaptativo. Para estas últimas, debido a la necesidad de entregas incrementales y al desarrollo de funcionalidades de voz y experiencia de usuario, se seleccionó Scrum como marco de trabajo. Esto facilitará un proceso iterativo de ajuste continuo basado en pruebas y realimentación.
 
-Scrum permite organizar el trabajo en sprints, obteniendo al final de cada uno un incremento funcional que puede ser probado y evaluado. Esto resulta adecuado para JARVIS, ya que permite validar progresivamente y de manera constante las funcionalidades y utilizar los resultados obtenidos para ajustar el trabajo de los siguientes sprints.
+Scrum permite organizar el trabajo en sprints, obteniendo al final de cada uno un incremento funcional que puede ser probado y evaluado. Esto resulta adecuado para KIU, ya que permite validar progresivamente y de manera constante las funcionalidades y utilizar los resultados obtenidos para ajustar el trabajo de los siguientes sprints.
 
 Además, la posibilidad de mantener una lista de tareas priorizada permite abordar primero las funcionalidades de mayor valor y adaptar el desarrollo a medida que aparecen nuevos requerimientos o se obtiene retroalimentación de los usuarios. De esta forma, Scrum brinda la flexibilidad necesaria para gestionar la incertidumbre de esta parte del proyecto, manteniendo al mismo tiempo una estructura y un seguimiento periódico del avance.
 

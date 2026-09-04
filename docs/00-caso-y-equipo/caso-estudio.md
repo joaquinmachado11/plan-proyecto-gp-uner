@@ -2,7 +2,7 @@
 
 ## Nombre del proyecto
 
-> **Asistente virtual de gestión de mantenimiento controlado por voz — JARVIS**
+> **Asistente virtual de gestión de mantenimiento controlado por voz — KIU**
 
 ## Origen del caso
 
