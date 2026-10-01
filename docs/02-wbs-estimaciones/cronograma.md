@@ -102,7 +102,7 @@ gantt
 ```
 ```mermaid
 gantt
-    title Cronograma - Proyecto KIU - Fase 4 - Documentación y cierre
+    title Cronograma - Fase 4 - Documentación y cierre
     dateFormat  YYYY-MM-DD
     axisFormat  %d/%m
     tickInterval 1day
