@@ -1,6 +1,6 @@
 # 🎲 Estimación Delphi
 
-> **Técnica:** Delphi · **Rondas realizadas:** 2 · **Estimadores:** [COMPLETAR: nombres]
+> **Técnica:** Delphi - Pert · **Rondas realizadas:** 3 · **Estimadores:** Gemini Pro Avanzado, Claude Opus 5.5, GPT-5.6 Luna
 
 ## Ronda 1
 
@@ -14,9 +14,6 @@
 | 2.3 | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
 | 3.1 | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
 | 3.2 | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
-| **TOTAL** | | | | | **[COMPLETAR]** | |
-
-> **Delta:** diferencia entre la estimación máxima y mínima de la ronda. Si Delta > [umbral definido por el grupo], se discute y se realiza la ronda 2.
 
 ## Discusión entre rondas
 
@@ -35,6 +32,8 @@
 | 3.1 | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
 | 3.2 | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
 | **TOTAL** | | | | | | | **[COMPLETAR] hs** |
+
+## Ronda 3
 
 ## Conversión a duración
 
