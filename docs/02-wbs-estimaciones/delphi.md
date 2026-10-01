@@ -5,7 +5,7 @@
 ## Ronda 1
 
 | ID de tarea | Experto 1 (GPT-5.6 Luna) M [h-p] | Experto 2 (Gemini Pro avanzado) M [h-p] | Experto 3 (Claude Pro - Opus 5.5) M [h-p] |
-| --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: |
 | 1.1.1 | 10 | 16 | 46 |
 | 1.1.2 | 11 | 8 | 28 |
 | 1.1.3 | 7 | 12 | 26 |
@@ -76,7 +76,7 @@
 ## Ronda 2
 
 | ID de tarea | Experto 1 (GPT-5.6 Luna) O [h-p] | Experto 1 (GPT-5.6 Luna) M [h-p] | Experto 1 (GPT-5.6 Luna) P [h-p] | Experto 2 (Gemini Pro avanzado) O [h-p] | Experto 2 (Gemini Pro avanzado) M [h-p] | Experto 2 (Gemini Pro avanzado) P [h-p] | Experto 3 (Claude Pro - Opus 5.5) O [h-p] | Experto 3 (Claude Pro - Opus 5.5) M [h-p] | Experto 3 (Claude Pro - Opus 5.5) P [h-p] |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1.1.1 | 12 | 24 | 46 | 16 | 26 | 40 | 14 | 24 | 42 |
 | 1.1.2 | 8 | 16 | 28 | 10 | 16 | 30 | 9 | 16 | 28 |
 | 1.1.3 | 8 | 14 | 26 | 9 | 14 | 22 | 8 | 13 | 22 |
@@ -147,7 +147,7 @@
 ## Ronda 3
 
 | ID de tarea | Experto 1 (GPT-5.6 Luna) O [h-p] | Experto 1 (GPT-5.6 Luna) M [h-p] | Experto 1 (GPT-5.6 Luna) P [h-p] | Experto 2 (Gemini Pro avanzado) O [h-p] | Experto 2 (Gemini Pro avanzado) M [h-p] | Experto 2 (Gemini Pro avanzado) P [h-p] | Experto 3 (Claude Pro - Opus 5.5) O [h-p] | Experto 3 (Claude Pro - Opus 5.5) M [h-p] | Experto 3 (Claude Pro - Opus 5.5) P [h-p] |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1.1.1 | 12 | 24 | 40 | 12 | 20 | 36 | 14 | 24 | 42 |
 | 1.1.2 | 8 | 16 | 28 | 8 | 14 | 28 | 9 | 16 | 28 |
 | 1.1.3 | 8 | 14 | 22 | 8 | 12 | 22 | 8 | 13 | 22 |
