@@ -20,6 +20,7 @@ Construir la WBS, definir la secuencia lógica de actividades y realizar estimac
 | [`cronograma.md`](cronograma.md) | Cronograma con diagrama Gantt |
 | [`red-de-tareas.md`](red-de-tareas.md) | Red de precedencias y Camino Crítico |
 | [`delphi.md`](delphi.md) | Planilla de estimación Delphi (2 rondas) |
+| [`prompts.md`](prompts.md) | Registro del uso de prompts y herramientas de IA |
 
 ## Criterios de evaluación
 
