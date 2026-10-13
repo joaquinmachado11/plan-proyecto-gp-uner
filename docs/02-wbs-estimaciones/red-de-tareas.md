@@ -18,7 +18,7 @@ flowchart LR
     T122["1.2.2 Definir requisitos no funcionales\n⏱ 2d"]
     T123["1.2.3 Elaborar la matriz de trazabilidad\n⏱ 2d"]
  
-    T131["1.3.1 Definición de arquitectura general e interfaces\n⏱ 2d"]
+    T131["1.3.1 Definición de arquitectura general e interfaces\n⏱ 3d"]
     T132["1.3.2 Definición de arquitectura de hardware\n⏱ 2d"]
     T133["1.3.3 Definición de arquitectura de firmware\n⏱ 2d"]
     T134["1.3.4 Definición de arquitectura de servicios en la nube\n⏱ 2d"]
@@ -64,7 +64,6 @@ flowchart LR
     style T111 fill:#FFCCCC,stroke:#C62828
     style T113 fill:#FFCCCC,stroke:#C62828
     style T114 fill:#FFCCCC,stroke:#C62828
-    style T121 fill:#FFCCCC,stroke:#C62828
     style T122 fill:#FFCCCC,stroke:#C62828
     style T131 fill:#FFCCCC,stroke:#C62828
     style T134 fill:#FFCCCC,stroke:#C62828
@@ -85,7 +84,7 @@ flowchart LR
     T2122["2.1.2.2 Diseño de comunicación dispositivo-backend\n⏱ 3d"]
 
     T2131["2.1.3.1 Diseño de flujos conversacionales por caso de uso priorizado\n⏱ 3d"]
-    T2132["2.1.3.2 Integración con MCP de KIBBO\n⏱ 2d"]
+    T2132["2.1.3.2 Integración con MCP de KIBBO\n⏱ 3d"]
 
     T214["2.1.4 Elaborar el plan de verificación técnica\n⏱ 3d"]
 
@@ -108,7 +107,7 @@ flowchart LR
     T2224["2.2.2.4 Implementación de la reproducción de audio\n⏱ 3d"]
     T2225["2.2.2.5 Ejecutar pruebas unitarias del firmware\n⏱ 4d"]
 
-    T2231["2.2.3.1 Integrar STT, intérprete y TTS\n⏱ 6d"]
+    T2231["2.2.3.1 Integrar STT, intérprete y TTS\n⏱ 7d"]
     T2232["2.2.3.2 Integración MCP con KIBBO\n⏱ 4d"]
     T2233["2.2.3.3 Implementación de los casos de uso priorizados\n⏱ 6d"]
 
@@ -117,7 +116,7 @@ flowchart LR
 
     T2251["2.2.5.1 Ejecutar ensayos de reconocimiento de voz con ruido y a distancia\n⏱ 3d"]
     T2252["2.2.5.2 Ejecutar ensayos de latencia y conectividad\n⏱ 2d"]
-    T2253["2.2.5.3 Ejecutar ensayos de seguridad\n⏱ 2d"]
+    T2253["2.2.5.3 Ejecutar ensayos de seguridad\n⏱ 3d"]
     T2254["2.2.5.4 Elaborar informe de verificación técnica\n⏱ 2d"]
 
     T226["2.2.6 Redacción de manual técnico y manual de usuario\n⏱ 4d"]
@@ -226,7 +225,7 @@ flowchart LR
     T324["3.2.4 Identificación y especificación de nuevos casos de uso\n⏱ 2d"]
     T325["3.2.5 Priorización de nuevos casos de uso y solicitud de cambio a KIBBO\n⏱ 2d"]
     T326["3.2.6 Ajuste del producto (hardware, firmware y nube)\n⏱ 7d"]
-    T327["3.2.7 Ejecutar las pruebas de regresión\n⏱ 3d"]
+    T327["3.2.7 Ejecutar las pruebas de regresión\n⏱ 2d"]
 
     T33["3.3 Informe de validación y feedback de usuarios\n⏱ 3d"]
 
@@ -307,7 +306,6 @@ flowchart LR
     class H4,H5,END hito
 
     style T411 fill:#FFCCCC,stroke:#C62828
-    style T412 fill:#FFCCCC,stroke:#C62828
     style T421 fill:#FFCCCC,stroke:#C62828
     style T422 fill:#FFCCCC,stroke:#C62828
     style T423 fill:#FFCCCC,stroke:#C62828
@@ -323,77 +321,77 @@ flowchart LR
 | 1.1.2 | Analizar el software KIBBO y su interfaz MCP | 01/03/2027 | 03/03/2027 | 02/03/2027 | 04/03/2027 | 1 | ❌ |
 | 1.1.3 | Elaborar el documento de casos de uso iniciales | 05/03/2027 | 08/03/2027 | 05/03/2027 | 08/03/2027 | 0 | ✅ |
 | 1.1.4 | Priorización de casos de uso y definición del alcance del prototipo | 09/03/2027 | 10/03/2027 | 09/03/2027 | 10/03/2027 | 0 | ✅ |
-| 1.2.1 | Definir requisitos funcionales | 11/03/2027 | 12/03/2027 | 11/03/2027 | 12/03/2027 | 0 | ✅ |
+| 1.2.1 | Definir requisitos funcionales | 11/03/2027 | 12/03/2027 | 11/03/2027 | 12/03/2027 | 0 | ⚠️ |
 | 1.2.2 | Definir requisitos no funcionales | 11/03/2027 | 12/03/2027 | 11/03/2027 | 12/03/2027 | 0 | ✅ |
-| 1.2.3 | Elaborar la matriz de trazabilidad | 15/03/2027 | 16/03/2027 | 25/03/2027 | 29/03/2027 | 7 | ❌ |
-| 1.3.1 | Definición de arquitectura general e interfaces | 15/03/2027 | 16/03/2027 | 15/03/2027 | 16/03/2027 | 0 | ✅ |
-| 1.3.2 | Definición de arquitectura de hardware | 17/03/2027 | 18/03/2027 | 25/03/2027 | 29/03/2027 | 5 | ❌ |
-| 1.3.3 | Definición de arquitectura de firmware | 17/03/2027 | 18/03/2027 | 25/03/2027 | 29/03/2027 | 5 | ❌ |
-| 1.3.4 | Definición de arquitectura de servicios en la nube | 17/03/2027 | 18/03/2027 | 17/03/2027 | 18/03/2027 | 0 | ✅ |
-| 1.3.5 | Definición de arquitectura de seguridad | 17/03/2027 | 18/03/2027 | 25/03/2027 | 29/03/2027 | 5 | ❌ |
-| 1.4 | Evaluación y selección de proveedores de STT/LLM/TTS | 19/03/2027 | 29/03/2027 | 19/03/2027 | 29/03/2027 | 0 | ✅ |
-| H1 | 🏁 Fin de la fase 1 | 29/03/2027 | 29/03/2027 | 29/03/2027 | 29/03/2027 | 0 | ✅ |
-| 2.1.1.1 | Selección de componentes | 30/03/2027 | 01/04/2027 | 30/03/2027 | 01/04/2027 | 0 | ✅ |
-| 2.1.1.2 | Diseño esquemático | 05/04/2027 | 08/04/2027 | 05/04/2027 | 08/04/2027 | 0 | ✅ |
-| 2.1.1.3 | Diseño de PCB | 09/04/2027 | 15/04/2027 | 09/04/2027 | 15/04/2027 | 0 | ✅ |
-| 2.1.1.4 | Diseño del gabinete | 05/04/2027 | 08/04/2027 | 12/04/2027 | 15/04/2027 | 5 | ❌ |
-| 2.1.1.5 | Generación de lista de materiales y calcular el costo unitario | 16/04/2027 | 19/04/2027 | 16/04/2027 | 19/04/2027 | 0 | ✅ |
-| 2.1.2.1 | Diseño de módulos | 30/03/2027 | 01/04/2027 | 20/04/2027 | 22/04/2027 | 14 | ❌ |
-| 2.1.2.2 | Diseño de comunicación dispositivo-backend | 05/04/2027 | 07/04/2027 | 23/04/2027 | 27/04/2027 | 14 | ❌ |
-| 2.1.3.1 | Diseño de flujos conversacionales por caso de uso priorizado | 30/03/2027 | 01/04/2027 | 21/04/2027 | 23/04/2027 | 15 | ❌ |
-| 2.1.3.2 | Diseño de integración con MCP de KIBBO | 05/04/2027 | 06/04/2027 | 26/04/2027 | 27/04/2027 | 15 | ❌ |
-| 2.1.4 | Elaborar el plan de verificación técnica | 30/03/2027 | 01/04/2027 | 23/04/2027 | 27/04/2027 | 17 | ❌ |
-| 2.1.5.1 | Solicitar cotizaciones y selección de proveedores | 20/04/2027 | 21/04/2027 | 20/04/2027 | 21/04/2027 | 0 | ✅ |
-| 2.1.5.2 | Generación de órdenes de compra | 22/04/2027 | 22/04/2027 | 22/04/2027 | 22/04/2027 | 0 | ✅ |
-| 2.1.5.3 | Realizar el seguimiento de envío e importación | 23/04/2027 | 26/04/2027 | 23/04/2027 | 26/04/2027 | 0 | ✅ |
-| 2.1.5.4 | Recepción e inspección de componentes | 27/04/2027 | 27/04/2027 | 27/04/2027 | 27/04/2027 | 0 | ✅ |
-| 2.1.6 | Revisión de diseño | 28/04/2027 | 30/04/2027 | 28/04/2027 | 30/04/2027 | 0 | ✅ |
-| H2 | 🏁 Revisión de diseño aprobada | 30/04/2027 | 30/04/2027 | 30/04/2027 | 30/04/2027 | 0 | ✅ |
-| 2.2.1.1 | Fabricación y montaje de PCB | 03/05/2027 | 05/05/2027 | 11/05/2027 | 13/05/2027 | 6 | ❌ |
-| 2.2.1.2 | Fabricación del gabinete | 03/05/2027 | 04/05/2027 | 12/05/2027 | 13/05/2027 | 7 | ❌ |
-| 2.2.1.3 | Ensamble del dispositivo y pruebas eléctricas | 06/05/2027 | 10/05/2027 | 14/05/2027 | 18/05/2027 | 6 | ❌ |
-| 2.2.2.1 | Implementación de captura y preprocesamiento de audio | 03/05/2027 | 10/05/2027 | 05/05/2027 | 12/05/2027 | 2 | ❌ |
-| 2.2.2.2 | Implementación de activación y gestión de estados | 03/05/2027 | 06/05/2027 | 07/05/2027 | 12/05/2027 | 4 | ❌ |
-| 2.2.2.3 | Implementación de conectividad y mecanismos de seguridad | 03/05/2027 | 10/05/2027 | 05/05/2027 | 12/05/2027 | 2 | ❌ |
-| 2.2.2.4 | Implementación de la reproducción de audio | 03/05/2027 | 05/05/2027 | 10/05/2027 | 12/05/2027 | 5 | ❌ |
-| 2.2.2.5 | Ejecutar pruebas unitarias del firmware | 11/05/2027 | 14/05/2027 | 13/05/2027 | 18/05/2027 | 2 | ❌ |
-| 2.2.3.1 | Integrar STT, intérprete y TTS | 03/05/2027 | 10/05/2027 | 03/05/2027 | 10/05/2027 | 0 | ✅ |
-| 2.2.3.2 | Integración MCP con KIBBO | 11/05/2027 | 14/05/2027 | 11/05/2027 | 14/05/2027 | 0 | ✅ |
-| 2.2.3.3 | Implementación de los casos de uso priorizados | 17/05/2027 | 24/05/2027 | 17/05/2027 | 24/05/2027 | 0 | ✅ |
-| 2.2.4.1 | Integración de hardware con firmware | 17/05/2027 | 20/05/2027 | 19/05/2027 | 24/05/2027 | 2 | ❌ |
-| 2.2.4.2 | Integración del dispositivo con la nube y KIBBO (integración punta a punta) | 26/05/2027 | 01/06/2027 | 26/05/2027 | 01/06/2027 | 0 | ✅ |
-| 2.2.5.1 | Ejecutar ensayos de reconocimiento de voz con ruido y a distancia | 02/06/2027 | 04/06/2027 | 02/06/2027 | 04/06/2027 | 0 | ✅ |
-| 2.2.5.2 | Ejecutar ensayos de latencia y conectividad | 02/06/2027 | 03/06/2027 | 03/06/2027 | 04/06/2027 | 1 | ❌ |
-| 2.2.5.3 | Ejecutar ensayos de seguridad | 02/06/2027 | 03/06/2027 | 03/06/2027 | 04/06/2027 | 1 | ❌ |
-| 2.2.5.4 | Elaborar informe de verificación técnica | 07/06/2027 | 08/06/2027 | 07/06/2027 | 08/06/2027 | 0 | ✅ |
-| 2.2.6 | Redacción de manual técnico y manual de usuario | 09/06/2027 | 14/06/2027 | 09/06/2027 | 14/06/2027 | 0 | ✅ |
-| H3 | 🏁 Fin de desarrollo y verificación | 14/06/2027 | 14/06/2027 | 14/06/2027 | 14/06/2027 | 0 | ✅ |
-| 3.1.1 | Selección de los casos de uso a validar | 15/06/2027 | 15/06/2027 | 15/06/2027 | 15/06/2027 | 0 | ✅ |
-| 3.1.2 | Definición de instrumentos de feedback | 16/06/2027 | 17/06/2027 | 16/06/2027 | 17/06/2027 | 0 | ✅ |
-| 3.1.3 | Definición de casos de prueba y criterios de aceptación | 18/06/2027 | 23/06/2027 | 18/06/2027 | 23/06/2027 | 0 | ✅ |
-| 3.1.4 | Coordinación del piloto con un SIC | 24/06/2027 | 25/06/2027 | 24/06/2027 | 25/06/2027 | 0 | ✅ |
-| 3.2.1 | Ejecutar pruebas funcionales de casos de uso | 28/06/2027 | 29/06/2027 | 28/06/2027 | 29/06/2027 | 0 | ✅ |
-| 3.2.2 | Ejecutar pruebas piloto con técnicos | 30/06/2027 | 05/07/2027 | 30/06/2027 | 05/07/2027 | 0 | ✅ |
-| 3.2.3 | Registro de defectos, feedback y necesidades no cubiertas | 06/07/2027 | 07/07/2027 | 06/07/2027 | 07/07/2027 | 0 | ✅ |
-| 3.2.4 | Identificación y especificación de nuevos casos de uso | 08/07/2027 | 12/07/2027 | 08/07/2027 | 12/07/2027 | 0 | ✅ |
-| 3.2.5 | Priorización de nuevos casos de uso y solicitud de cambio a KIBBO | 13/07/2027 | 14/07/2027 | 13/07/2027 | 14/07/2027 | 0 | ✅ |
-| 3.2.6 | Ajuste del producto (hardware, firmware y nube) | 15/07/2027 | 23/07/2027 | 15/07/2027 | 23/07/2027 | 0 | ✅ |
-| 3.2.7 | Ejecutar las pruebas de regresión | 26/07/2027 | 28/07/2027 | 26/07/2027 | 28/07/2027 | 0 | ✅ |
-| 3.3 | Informe de validación y feedback de usuarios | 29/07/2027 | 02/08/2027 | 29/07/2027 | 02/08/2027 | 0 | ✅ |
-| H4 | 🏁 Validación finalizada | 02/08/2027 | 02/08/2027 | 02/08/2027 | 02/08/2027 | 0 | ✅ |
-| 4.1.1 | Elaborar el informe final de pruebas | 03/08/2027 | 04/08/2027 | 03/08/2027 | 04/08/2027 | 0 | ✅ |
-| 4.1.2 | Registro de problemas presentados y soluciones | 03/08/2027 | 04/08/2027 | 03/08/2027 | 04/08/2027 | 0 | ✅ |
-| 4.2.1 | Entrega del prototipo y los repositorios | 05/08/2027 | 06/08/2027 | 05/08/2027 | 06/08/2027 | 0 | ✅ |
-| 4.2.2 | Realizar la demostración y capacitación | 09/08/2027 | 10/08/2027 | 09/08/2027 | 10/08/2027 | 0 | ✅ |
-| 4.2.3 | Elaborar el acta de aceptación | 11/08/2027 | 11/08/2027 | 11/08/2027 | 11/08/2027 | 0 | ✅ |
-| H5 | 🏁 Prototipo aceptado | 11/08/2027 | 11/08/2027 | 11/08/2027 | 11/08/2027 | 0 | ✅ |
-| 4.3.1 | Análisis de desviaciones de alcance, tiempo y costo | 12/08/2027 | 13/08/2027 | 12/08/2027 | 13/08/2027 | 0 | ✅ |
-| 4.3.2 | Archivar la documentación del proyecto | 17/08/2027 | 17/08/2027 | 17/08/2027 | 17/08/2027 | 0 | ✅ |
-| 4.4 | Realizar la presentación final y reunión de cierre | 18/08/2027 | 19/08/2027 | 18/08/2027 | 19/08/2027 | 0 | ✅ |
+| 1.2.3 | Elaborar la matriz de trazabilidad | 15/03/2027 | 16/03/2027 | 29/03/2027 | 30/03/2027 | 8 | ❌ |
+| 1.3.1 | Definición de arquitectura general e interfaces | 15/03/2027 | 17/03/2027 | 15/03/2027 | 17/03/2027 | 0 | ✅ |
+| 1.3.2 | Definición de arquitectura de hardware | 18/03/2027 | 19/03/2027 | 29/03/2027 | 30/03/2027 | 5 | ❌ |
+| 1.3.3 | Definición de arquitectura de firmware | 18/03/2027 | 19/03/2027 | 29/03/2027 | 30/03/2027 | 5 | ❌ |
+| 1.3.4 | Definición de arquitectura de servicios en la nube | 18/03/2027 | 19/03/2027 | 18/03/2027 | 19/03/2027 | 0 | ✅ |
+| 1.3.5 | Definición de arquitectura de seguridad | 18/03/2027 | 19/03/2027 | 29/03/2027 | 30/03/2027 | 5 | ❌ |
+| 1.4 | Evaluación y selección de proveedores de STT/LLM/TTS | 22/03/2027 | 30/03/2027 | 22/03/2027 | 30/03/2027 | 0 | ✅ |
+| H1 | 🏁 Fin de la fase 1 | 30/03/2027 | 30/03/2027 | 30/03/2027 | 30/03/2027 | 0 | ✅ |
+| 2.1.1.1 | Selección de componentes | 31/03/2027 | 05/04/2027 | 31/03/2027 | 05/04/2027 | 0 | ✅ |
+| 2.1.1.2 | Diseño esquemático | 06/04/2027 | 09/04/2027 | 06/04/2027 | 09/04/2027 | 0 | ✅ |
+| 2.1.1.3 | Diseño de PCB | 12/04/2027 | 16/04/2027 | 12/04/2027 | 16/04/2027 | 0 | ✅ |
+| 2.1.1.4 | Diseño del gabinete | 06/04/2027 | 09/04/2027 | 13/04/2027 | 16/04/2027 | 5 | ❌ |
+| 2.1.1.5 | Generación de lista de materiales y calcular el costo unitario | 19/04/2027 | 20/04/2027 | 19/04/2027 | 20/04/2027 | 0 | ✅ |
+| 2.1.2.1 | Diseño de módulos | 31/03/2027 | 05/04/2027 | 21/04/2027 | 23/04/2027 | 14 | ❌ |
+| 2.1.2.2 | Diseño de comunicación dispositivo-backend | 06/04/2027 | 08/04/2027 | 26/04/2027 | 28/04/2027 | 14 | ❌ |
+| 2.1.3.1 | Diseño de flujos conversacionales por caso de uso priorizado | 31/03/2027 | 05/04/2027 | 21/04/2027 | 23/04/2027 | 14 | ❌ |
+| 2.1.3.2 | Diseño de integración con MCP de KIBBO | 06/04/2027 | 08/04/2027 | 26/04/2027 | 28/04/2027 | 14 | ❌ |
+| 2.1.4 | Elaborar el plan de verificación técnica | 31/03/2027 | 05/04/2027 | 26/04/2027 | 28/04/2027 | 17 | ❌ |
+| 2.1.5.1 | Solicitar cotizaciones y selección de proveedores | 21/04/2027 | 22/04/2027 | 21/04/2027 | 22/04/2027 | 0 | ✅ |
+| 2.1.5.2 | Generación de órdenes de compra | 23/04/2027 | 23/04/2027 | 23/04/2027 | 23/04/2027 | 0 | ✅ |
+| 2.1.5.3 | Realizar el seguimiento de envío e importación | 26/04/2027 | 27/04/2027 | 26/04/2027 | 27/04/2027 | 0 | ✅ |
+| 2.1.5.4 | Recepción e inspección de componentes | 28/04/2027 | 28/04/2027 | 28/04/2027 | 28/04/2027 | 0 | ✅ |
+| 2.1.6 | Revisión de diseño | 29/04/2027 | 03/05/2027 | 29/04/2027 | 03/05/2027 | 0 | ✅ |
+| H2 | 🏁 Revisión de diseño aprobada | 03/05/2027 | 03/05/2027 | 03/05/2027 | 03/05/2027 | 0 | ✅ |
+| 2.2.1.1 | Fabricación y montaje de PCB | 04/05/2027 | 06/05/2027 | 13/05/2027 | 17/05/2027 | 7 | ❌ |
+| 2.2.1.2 | Fabricación del gabinete | 04/05/2027 | 05/05/2027 | 14/05/2027 | 17/05/2027 | 8 | ❌ |
+| 2.2.1.3 | Ensamble del dispositivo y pruebas eléctricas | 07/05/2027 | 11/05/2027 | 18/05/2027 | 20/05/2027 | 7 | ❌ |
+| 2.2.2.1 | Implementación de captura y preprocesamiento de audio | 04/05/2027 | 11/05/2027 | 07/05/2027 | 14/05/2027 | 3 | ❌ |
+| 2.2.2.2 | Implementación de activación y gestión de estados | 04/05/2027 | 07/05/2027 | 11/05/2027 | 14/05/2027 | 5 | ❌ |
+| 2.2.2.3 | Implementación de conectividad y mecanismos de seguridad | 04/05/2027 | 11/05/2027 | 07/05/2027 | 14/05/2027 | 3 | ❌ |
+| 2.2.2.4 | Implementación de la reproducción de audio | 04/05/2027 | 06/05/2027 | 12/05/2027 | 14/05/2027 | 6 | ❌ |
+| 2.2.2.5 | Ejecutar pruebas unitarias del firmware | 12/05/2027 | 17/05/2027 | 17/05/2027 | 20/05/2027 | 3 | ❌ |
+| 2.2.3.1 | Integrar STT, intérprete y TTS | 04/05/2027 | 12/05/2027 | 04/05/2027 | 12/05/2027 | 0 | ✅ |
+| 2.2.3.2 | Integración MCP con KIBBO | 13/05/2027 | 18/05/2027 | 13/05/2027 | 18/05/2027 | 0 | ✅ |
+| 2.2.3.3 | Implementación de los casos de uso priorizados | 19/05/2027 | 27/05/2027 | 19/05/2027 | 27/05/2027 | 0 | ✅ |
+| 2.2.4.1 | Integración de hardware con firmware | 18/05/2027 | 21/05/2027 | 21/05/2027 | 27/05/2027 | 3 | ❌ |
+| 2.2.4.2 | Integración del dispositivo con la nube y KIBBO (integración punta a punta) | 28/05/2027 | 03/06/2027 | 28/05/2027 | 03/06/2027 | 0 | ✅ |
+| 2.2.5.1 | Ejecutar ensayos de reconocimiento de voz con ruido y a distancia | 04/06/2027 | 08/06/2027 | 04/06/2027 | 08/06/2027 | 0 | ✅ |
+| 2.2.5.2 | Ejecutar ensayos de latencia y conectividad | 04/06/2027 | 07/06/2027 | 07/06/2027 | 08/06/2027 | 1 | ❌ |
+| 2.2.5.3 | Ejecutar ensayos de seguridad | 04/06/2027 | 08/06/2027 | 04/06/2027 | 08/06/2027 | 0 | ⚠️ |
+| 2.2.5.4 | Elaborar informe de verificación técnica | 09/06/2027 | 10/06/2027 | 09/06/2027 | 10/06/2027 | 0 | ✅ |
+| 2.2.6 | Redacción de manual técnico y manual de usuario | 11/06/2027 | 16/06/2027 | 11/06/2027 | 16/06/2027 | 0 | ✅ |
+| H3 | 🏁 Fin de desarrollo y verificación | 16/06/2027 | 16/06/2027 | 16/06/2027 | 16/06/2027 | 0 | ✅ |
+| 3.1.1 | Selección de los casos de uso a validar | 17/06/2027 | 17/06/2027 | 17/06/2027 | 17/06/2027 | 0 | ✅ |
+| 3.1.2 | Definición de instrumentos de feedback | 18/06/2027 | 22/06/2027 | 18/06/2027 | 22/06/2027 | 0 | ✅ |
+| 3.1.3 | Definición de casos de prueba y criterios de aceptación | 23/06/2027 | 25/06/2027 | 23/06/2027 | 25/06/2027 | 0 | ✅ |
+| 3.1.4 | Coordinación del piloto con un SIC | 28/06/2027 | 29/06/2027 | 28/06/2027 | 29/06/2027 | 0 | ✅ |
+| 3.2.1 | Ejecutar pruebas funcionales de casos de uso | 30/06/2027 | 01/07/2027 | 30/06/2027 | 01/07/2027 | 0 | ✅ |
+| 3.2.2 | Ejecutar pruebas piloto con técnicos | 02/07/2027 | 07/07/2027 | 02/07/2027 | 07/07/2027 | 0 | ✅ |
+| 3.2.3 | Registro de defectos, feedback y necesidades no cubiertas | 08/07/2027 | 12/07/2027 | 08/07/2027 | 12/07/2027 | 0 | ✅ |
+| 3.2.4 | Identificación y especificación de nuevos casos de uso | 13/07/2027 | 14/07/2027 | 13/07/2027 | 14/07/2027 | 0 | ✅ |
+| 3.2.5 | Priorización de nuevos casos de uso y solicitud de cambio a KIBBO | 15/07/2027 | 16/07/2027 | 15/07/2027 | 16/07/2027 | 0 | ✅ |
+| 3.2.6 | Ajuste del producto (hardware, firmware y nube) | 19/07/2027 | 27/07/2027 | 19/07/2027 | 27/07/2027 | 0 | ✅ |
+| 3.2.7 | Ejecutar las pruebas de regresión | 28/07/2027 | 29/07/2027 | 28/07/2027 | 29/07/2027 | 0 | ✅ |
+| 3.3 | Informe de validación y feedback de usuarios | 30/07/2027 | 03/08/2027 | 30/07/2027 | 03/08/2027 | 0 | ✅ |
+| H4 | 🏁 Validación finalizada | 03/08/2027 | 03/08/2027 | 03/08/2027 | 03/08/2027 | 0 | ✅ |
+| 4.1.1 | Elaborar el informe final de pruebas | 04/08/2027 | 05/08/2027 | 04/08/2027 | 05/08/2027 | 0 | ✅ |
+| 4.1.2 | Registro de problemas presentados y soluciones | 04/08/2027 | 05/08/2027 | 04/08/2027 | 05/08/2027 | 0 | ⚠️ |
+| 4.2.1 | Entrega del prototipo y los repositorios | 06/08/2027 | 09/08/2027 | 06/08/2027 | 09/08/2027 | 0 | ✅ |
+| 4.2.2 | Realizar la demostración y capacitación | 10/08/2027 | 11/08/2027 | 10/08/2027 | 11/08/2027 | 0 | ✅ |
+| 4.2.3 | Elaborar el acta de aceptación | 12/08/2027 | 12/08/2027 | 12/08/2027 | 12/08/2027 | 0 | ✅ |
+| H5 | 🏁 Prototipo aceptado | 12/08/2027 | 12/08/2027 | 12/08/2027 | 12/08/2027 | 0 | ✅ |
+| 4.3.1 | Análisis de desviaciones de alcance, tiempo y costo | 13/08/2027 | 17/08/2027 | 13/08/2027 | 17/08/2027 | 0 | ✅ |
+| 4.3.2 | Archivar la documentación del proyecto | 18/08/2027 | 18/08/2027 | 18/08/2027 | 18/08/2027 | 0 | ✅ |
+| 4.4 | Realizar la presentación final y reunión de cierre | 19/08/2027 | 20/08/2027 | 19/08/2027 | 20/08/2027 | 0 | ✅ |
 
-**Duración total del proyecto:** 117 días hábiles (del 01/03/2027 al 19/08/2027)
+**Duración total del proyecto:** 118 días hábiles (del 01/03/2027 al 20/08/2027)
 
-**Camino Crítico:** `INICIO → 1.1.1 → 1.1.3 → 1.1.4 → (1.2.1 ∥ 1.2.2) → 1.3.1 → 1.3.4 → 1.4 → H1 → 2.1.1.1 → 2.1.1.2 → 2.1.1.3 → 2.1.1.5 → 2.1.5.1 → 2.1.5.2 → 2.1.5.3 → 2.1.5.4 → 2.1.6 → H2 → 2.2.3.1 → 2.2.3.2 → 2.2.3.3 → 2.2.4.2 → 2.2.5.1 → 2.2.5.4 → 2.2.6 → H3 → 3.1.1 → 3.1.2 → 3.1.3 → 3.1.4 → 3.2.1 → 3.2.2 → 3.2.3 → 3.2.4 → 3.2.5 → 3.2.6 → 3.2.7 → 3.3 → H4 → (4.1.1 ∥ 4.1.2) → 4.2.1 → 4.2.2 → 4.2.3 → H5 → 4.3.1 → 4.3.2 → 4.4 → FIN`
+**Camino Crítico:** `INICIO → 1.1.1 → 1.1.3 → 1.1.4 → 1.2.2 → 1.3.1 → 1.3.4 → 1.4 → H1 → 2.1.1.1 → 2.1.1.2 → 2.1.1.3 → 2.1.1.5 → 2.1.5.1 → 2.1.5.2 → 2.1.5.3 → 2.1.5.4 → 2.1.6 → H2 → 2.2.3.1 → 2.2.3.2 → 2.2.3.3 → 2.2.4.2 → 2.2.5.1 → 2.2.5.4 → 2.2.6 → H3 → 3.1.1 → 3.1.2 → 3.1.3 → 3.1.4 → 3.2.1 → 3.2.2 → 3.2.3 → 3.2.4 → 3.2.5 → 3.2.6 → 3.2.7 → 3.3 → H4 → 4.1.1 → 4.2.1 → 4.2.2 → 4.2.3 → H5 → 4.3.1 → 4.3.2 → 4.4 → FIN`
 
 ---
 
