@@ -6,7 +6,7 @@
 
 | Rol | Persona asignada |
 |-----|-----------------|
-| Project Owner | Manuela Calvo |
+| Product Owner | Manuela Calvo |
 | Scrum Master | Joaquin Machado |
 | Desarrollador (Firmware) | Josefina Giorgi |
 | Desarrollador (Hardware) | Lucas Alarcón |
